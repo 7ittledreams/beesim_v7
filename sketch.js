@@ -103,7 +103,7 @@ function keyPressed(){
 //  }
 // }
 
-function touchStarted(){
+function touchEnded(){
   let x = mouseX;
   let y = mouseY;
   let r = 100;
