@@ -2,7 +2,7 @@ let cnv;
 let workers = [];
 let flowers = [];
 let cells = [];
-let beeCount = 2;
+let beeCount = 1;
 let flowerCount = 0;
 let flowerTime = 300;
 let flowerTimeLow = 900;
