@@ -2,7 +2,7 @@ class Hive{
   constructor(){
     this.x = width/2
     this.y = 20
-    this.honey = 10;
+    this.honey = 25;
     this.loc = createVector(this.x, this.y);
     this.rad = 10;
     this.cellsLoc =[];
