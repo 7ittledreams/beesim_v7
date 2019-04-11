@@ -103,7 +103,7 @@ function keyPressed(){
 //  }
 // }
 
-function touchEnded(){
+function touchStarted(){
   let x = mouseX;
   let y = mouseY;
   let r = 100;
@@ -112,6 +112,7 @@ function touchEnded(){
  } else {
   flowers.push(new Flower());
  }
+return false;
 }
 
 function record(){
